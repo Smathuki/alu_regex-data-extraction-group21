@@ -38,30 +38,6 @@ To start using this project, follow these steps:
 
 5. Use https://regexr.com/
 
-## Usage
-
-You can use the provided regular expressions in your software to extract specific data types from raw API responses. Make sure to apply the appropriate regular expression for each data category.
-
-// Sample API response
-const apiResponse = "Restaurant: McDonald's - Fast Food";
-
-// Define the regular expression pattern
-const regexPattern = /([\w\s]+) - ([\w\s]+)/;
-
-// Use the regular expression to extract data
-const match = apiResponse.match(regexPattern);
-
-if (match) {
-  const restaurantName = match[1];
-  const cuisineType = match[2];
-
-  console.log(`Restaurant Name: ${restaurantName}`);
-  console.log(`Cuisine Type: ${cuisineType}`);
-} else {
-  console.log("No match found in the API response.");
-}
-
-
 
 Sample Data for Testing Regular Expressions:
 
@@ -113,12 +89,15 @@ Sample Data for Testing Regular Expressions:
    - Reach out to us: contactus@domain.org
  
 Contributing
+
 Contributions to improve or extend this project are welcome. If you have suggestions, bug fixes, or new features to add, please create a pull request.
 
 License
+
 This project is licensed under the MIT License.
 
 Acknowledgments
+
 This project was inspired by the need to extract structured data from messy API responses.
 Regular expressions are a powerful tool for pattern matching and data extraction.
 Special thanks to the group for their contributions to this project.
