@@ -1,4 +1,4 @@
-const colorRegex = /rgb\((\d{1,3}),\s(\d{1,3}),\s(\d{1,3})\)/;
+:const colorRegex = /rgb\((\d{1,3}),\s(\d{1,3}),\s(\d{1,3})\)/;
 const apiResponse3 = "Background color: rgb(255, 0, 128)";
 const match3 = apiResponse3.match(colorRegex);
 if (match3) {

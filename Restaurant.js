@@ -1,4 +1,4 @@
-const apiResponse = "Restaurant1 - Italian, Restaurant2 - Mexican, Restaurant3 - Chinese";
+const apiResponse = "Restaurant1 - Rwandan, Restaurant2 - Kenyan, Restaurant3 - Nigerian";
 
 // Regular expression pattern to match "Name - Cuisine" format
 const restaurantPattern = /([\w\s]+) - ([\w\s]+)/g;
